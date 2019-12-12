@@ -96,7 +96,7 @@ void GeneralObject::readFDisk(std::string filename)
 
 void GeneralObject::readFDiskbin(std::string filename)
 {
-    std::string transf[3] = {"GU.dat", "GS.dat", "GI.dat"};
+    std::string transf[3] = {"DU.dat", "DS.dat", "DI.dat"};
 
     for (int i = 0; i < 3; i++)
         _TransferMatrix[i].clear();
